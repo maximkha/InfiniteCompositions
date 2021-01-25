@@ -1,5 +1,7 @@
 # Infinite Compositions
 
+*Note: to view this properly, please see the attached PDF, as the latex (math) isn't rendered on Github!*
+
 This is a document exploring infinite composition of functions.
 
 Terminology I will use:
@@ -69,7 +71,7 @@ As we can see, they start forming a ‘bucket,‘ where all of the sides pass th
 
 ##### Considering $r$
 
-![3](img\3.png)
+<img src="img\3.png" alt="3"  />
 
 The new green function is $r(x)$, which in our case is $r(x)=x^2-x$. The roots of $r$ represent all the stable points of our function. Another way to think of $r$ is that it is the change of x given one composition. Obviously, if $y=x$ is above our function $f(x)$, then $r(x)<0$ and we are on a downward slide. And, if $y=x$ is below our function $f(x)$, then $r(x)>0$ and we are on a upward slide.
 
@@ -125,14 +127,14 @@ One intriguing choice of $f$ is:
 
 $f(x)=\frac{sin(2\pi x)}{2\pi} +x$
 
-![3](img\4.png)
+<img src="img\4.png" alt="4"  />
 
 Now, if we plot $y=x$:
 
-![3](img\5.png)
+<img src="img\5.png" alt="5"  />
 
 We can see that $f(x)$ has slides, and if we graph a bunch of compositions, we see that it forms plateaus.
 
-![3](img\6.png)
+<img src="img\6.png" alt="6"  />
 
 The actual formula for $g$ is $g(x)=floor(x)+\frac{1}{2}$.
