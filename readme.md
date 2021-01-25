@@ -11,10 +11,13 @@ Terminology I will use:
 - A stable point is where $g(x)=x$
   - This also implies that $f(x)=x$
   - Also, stable points can be defined as $r(x)=0$
+  - Stable points are attractors if $r'(x)<0$
 - An attractor point is where $g(d)=c$  where $d$ is a certain interval like: $a<d<b$.
   - All attractors are stable points, **but not vise versa**.
   - Note that the interval does not need to be symmetric!
   - An attractor has at least one slide around it, **but not vise versa**.
+    - Given that $f$ is continuous, an attractor will have two slides around it
+  - An attractor is defined by: $r(x)=0$ and $r'(x)<0$.
 - $r(x)$ or $r$
   - $r(x)$ is the residual function, which tells us how the function will change the next recursion.
     - $dx=r(x)$
